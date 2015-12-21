@@ -1,0 +1,52 @@
+<application xmlns="http://wadl.dev.java.net/2009/02">
+	<script id="tinyhippos-injected"/>
+	<doc title="Spring REST Service WADL"/>
+	<resources base="http://localhost:8080/RestOutBuddy/rest/v2/outdoorbuddies.wadl">
+		<resource path="/service/event/schedule">
+			<method id="scheduleEvent" name="POST">
+				<doc title="EventController.scheduleEvent"/>
+				<request>
+					<param default="" name="data" required="true" style="query" type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+				</request>
+			</method>
+		</resource>
+		<resource path="/service/event/getSchedule">
+			<method id="getScheduledEvent" name="GET">
+				<doc title="EventController.getScheduledEvent"/>
+				<request>
+					<ns2:param default="" name="userid" required="true" style="query" type="xs:integer" xmlns="" xmlns:ns2="http://wadl.dev.java.net/2009/02"/>
+				</request>
+			</method>
+		</resource>
+		<resource path="/service/user/register">
+			<method id="registerUser" name="POST">
+				<doc title="UserController.registerUser"/>
+				<request>
+					<ns2:param default="" name="params" required="true" style="query" type="" xmlns="" xmlns:ns2="http://wadl.dev.java.net/2009/02"/>
+				</request>
+			</method>
+		</resource>
+		<resource path="/service/user/aboutApp">
+			<method id="aboutApp" name="GET">
+				<doc title="UserController.aboutApp"/>
+			</method>
+		</resource>
+		<resource path="/service/user/search">
+			<method id="searchUsers" name="GET">
+				<doc title="UserController.searchUsers"/>
+				<request>
+					<ns2:param default="" name="params" required="true" style="query" type="" xmlns="" xmlns:ns2="http://wadl.dev.java.net/2009/02"/>
+				</request>
+			</method>
+		</resource>
+		<resource path="/service/user/authenticate">
+			<method id="authenticateUser" name="POST">
+				<doc title="UserController.authenticateUser"/>
+				<request>
+					<param default="" name="username" required="true" style="query" type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+					<param default="" name="passwd" required="true" style="query" type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+				</request>
+			</method>
+		</resource>
+	</resources>
+</application>
