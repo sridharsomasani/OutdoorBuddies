@@ -16,11 +16,11 @@ CREATE TABLE UserProfile (
 	CONSTRAINT pk_UserID PRIMARY KEY(user_id)
 );
 
-INSERT INTO UserProfile VALUES(NULL,"sridhar","somasani","sridhar_somasani","sridhar","sridhar_somasani@gmail.com","1990-1-1","M","6107515373","University Place","images/male.jpg", CURRENT_DATE);
-INSERT INTO UserProfile VALUES(NULL,"adithya", "tallap",  "adithya_tallap", "adithya", "adithya_tallap@gmail.com", "1990-1-1", "M", "6107515373", "Lamar Place", "images/male.jpg", CURRENT_DATE);
-INSERT INTO UserProfile VALUES(NULL,"shiva", "ragi",  "shiva_ragi", "shiva", "shiva_ragi@gmail.com", "1990-1-1", "M", "6107515373", "Lamar Place", "images/male.jpg", CURRENT_DATE);
-INSERT INTO UserProfile VALUES(NULL,"abhinav", "kotha",  "abhinav_kotha", "abhinav", "abhinav_kotha@gmail.com", "1990-1-1", "M", "6107515373", "University Place", "images/male.jpg", CURRENT_DATE);
-INSERT INTO UserProfile VALUES(NULL,"pranith", "thipparthi",  "pranith_thipparthi", "pranith", "pranith_thipparthi@gmail.com", "1990-1-1", "M", "6107515373", "Lamar Place", "images/male.jpg", CURRENT_DATE);
+INSERT INTO UserProfile VALUES(NULL,"sridhar","somasani","sridhar_somasani","sridhar","test_sridhar@gmail.com","1990-1-1","M","1234567895","University Place","images/male.jpg", CURRENT_DATE);
+INSERT INTO UserProfile VALUES(NULL,"adithya", "tallap",  "adithya_tallap", "adithya", "test_adithya@gmail.com", "1990-1-1", "M", "1234567895", "Lamar Place", "images/male.jpg", CURRENT_DATE);
+INSERT INTO UserProfile VALUES(NULL,"shiva", "ragi",  "shiva_ragi", "shiva", "test_shiva@gmail.com", "1990-1-1", "M", "1234567895", "Lamar Place", "images/male.jpg", CURRENT_DATE);
+INSERT INTO UserProfile VALUES(NULL,"abhinav", "kotha",  "abhinav_kotha", "abhinav", "test_abhinav@gmail.com", "1990-1-1", "M", "1234567895", "University Place", "images/male.jpg", CURRENT_DATE);
+INSERT INTO UserProfile VALUES(NULL,"pranith", "thipparthi",  "pranith_thipparthi", "pranith", "test.pranith@gmail.com", "1990-1-1", "M", "1234567895", "Lamar Place", "images/male.jpg", CURRENT_DATE);
 
 
 DROP PROCEDURE IF EXISTS usp_AddNewUser;
