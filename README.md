@@ -12,6 +12,6 @@ Outdoor Buddies will be helpful for users to check a list of nearby facilities a
 
 ![screen](Screenshots/profile.PNG?raw=true "Profile")     ![screen](Screenshots/maps.PNG?raw=true "Map")
 
-![screen](Screenshots/maps select.PNG?raw=true "Map")     ![screen](Screenshots/search.PNG?raw=true "Search")
+![screen](Screenshots/maps_select.PNG?raw=true "Map")     ![screen](Screenshots/search.PNG?raw=true "Search")
 
 ![screen](Screenshots/date.PNG?raw=true "Date")           ![screen](Screenshots/time.PNG?raw=true "Time")
